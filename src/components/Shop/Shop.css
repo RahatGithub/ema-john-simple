@@ -8,3 +8,11 @@
     margin-right: 5px;
     border-right: 1px solid lightgray;
 }
+
+/*This section is just to make the cart position fixed while scrolling*/
+.cart-container{
+    position: fixed;
+    top: 130px;
+    right: 100px;
+}
+/*//////////////////////////////////////////////////////*/
