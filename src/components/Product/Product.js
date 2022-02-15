@@ -20,7 +20,8 @@ const Product = (props) => {
                 <p><small>Only {stock} left in stock</small></p>
 
                 {/* If props.showAddToCart == true then show the button */}
-                {props.showAddToCart && <button className="primary-button" onClick={() => props.handleAddProduct(props.product)}>
+                {props.showAddToCart && 
+                <button className="primary-button" onClick={() => props.handleAddProduct(props.product)}>
                         <FontAwesomeIcon icon={faShoppingCart} /> Add to cart
                 </button>}
 

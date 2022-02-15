@@ -8,7 +8,6 @@ const ProductDetail = () => {
     const product = fakeData.find(pd => pd.key === productKey);
     return (
         <div>
-            <h1>Key: {productKey}</h1>
             <Product showAddToCart={false} product={product}></Product>
         </div>
     );
